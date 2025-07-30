@@ -59,6 +59,7 @@ export_*/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # Environment variables
 .env
