@@ -1,0 +1,12 @@
+{
+  "database": {
+    "type": "sqlite",
+    "file": "ajp_data.db"
+  },
+  "scraper": {
+    "max_workers": 32,
+    "timeout": 10,
+    "max_events": 1302,
+    "chunk_size": 1000
+  }
+} 
