@@ -19,6 +19,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual environments
 .env
@@ -34,19 +35,48 @@ venv.bak/
 .idea/
 *.swp
 *.swo
+*~
 
-# Data
-data/
-*.parquet
-*.csv
-*.sql
-*.ipynb
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Logs
+# Project specific
+*.db
+*.sqlite
+*.sqlite3
 *.log
+logs/
+data/
+export_*/
+*.parquet
+!ajpdata_full.parquet
 
-# Docker
-.dockerignore
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# uv
-.uv/
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Database backups
+*.dump
+*.sql
+
+# Scraper specific
+scraper.log
+ajp_data.db
